@@ -15,7 +15,7 @@ def sum_kf(x1, x2, x3=None):
     return xn
 
 
-# Варіант 113
+#Варіант №113
 
 
 x1_min = -15
@@ -466,9 +466,9 @@ while True:
                 print("t%s < ttabl, b%s не значимий" % (i, i))
                 globals()['b%s' % i] = 0
                 d = d - 1
-                print("1111111111111111111111111", i)
+
             else:
-                print("2222222222222222222222222", i)
+
                 print("t%s >= ttabl, b%s значимий" % (i, i))
                 koef += b[i]
                 quantity += 1
@@ -546,7 +546,7 @@ while True:
         print("\nКритерій Фішера")
         print(d, "значимих коефіцієнтів")
 
-        # print("\nСереднє значення значимих коефіцієнтів =", koef / quantity)
+        print("\nСереднє значення значимих коефіцієнтів =", koef / quantity)
 
         f4 = N - d
         sad = ((yy1 - y1_av1) ** 2 + (yy2 - y2_av2) ** 2 + (yy3 - y3_av3) ** 2 + (yy4 - y4_av4) ** 2 + (
